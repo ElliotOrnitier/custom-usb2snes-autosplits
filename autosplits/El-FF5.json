@@ -44,6 +44,24 @@
 			]
 		},
 		{
+			"name": "Wind Shrine Exit",
+			"address": "0x0AD6",
+			"value": "0x001C",
+			"type": "weq",
+			"next": [
+				{
+					"address": "0x0AD6",
+					"value": "0x001B",
+					"type": "eq"
+				},
+				{
+					"address": "0x0AD6",
+					"value": "0x0000",
+					"type": "eq"
+				}
+			]
+		},
+		{
 			"name": "Karlabos",
 			"address": "0x04F0",
 			"value": "0x01B8",
